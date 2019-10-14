@@ -26,9 +26,9 @@
         <div id="menu">
         	<ul>
             	<li class="menuitem"><a href="/">Home</a></li>
-                <li class="menuitem"><a href="#">About Us</a></li>
-                <li class="menuitem"><a href="#">Products</a></li>
-                <li class="menuitem"><a href="#">Blog</a></li>
+                <li class="menuitem"><a href="/aboutus">About Us</a></li>
+                <li class="menuitem"><a href="/ourproducts">Products</a></li>
+                <li class="menuitem"><a href="/blog">Blog</a></li>
               <li class="menuitem"><a href="/login">Login</a></li>
             </ul>
         </div>

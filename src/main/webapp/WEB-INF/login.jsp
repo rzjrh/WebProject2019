@@ -18,7 +18,7 @@
       <input class="un " type="text" align="center" placeholder="Username">
       <input class="pass" type="password" align="center" placeholder="Password">
       <a class="submit" align="center">Sign in</a>
-      <p class="forgot" align="center"><a href="/forgot.jsp">Forgot Password?</p>
+      <p class="forgot" align="center"><a href="/forgot">Forgot Password?</p>
        <p class="forgot" align="center"><a href="/register">Register a new account</p>          
     </div>
      

@@ -18,4 +18,19 @@ public class HomeController {
 	public String login () {
 		return "login.jsp";
 	}
+	
+	@RequestMapping ("/blog")
+	public String blog () {
+		return "blog.jsp";
+	}
+	
+	@RequestMapping ("/aboutus")
+	public String aboutus () {
+		return "aboutus.jsp";
+	}
+	
+	@RequestMapping ("/ourproducts")
+	public String ourproduct () {
+		return "ourproducts.jsp";
+	}
 }

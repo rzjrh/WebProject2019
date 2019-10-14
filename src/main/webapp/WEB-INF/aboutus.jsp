@@ -8,7 +8,7 @@
 </head>
 <body>
 
-Register
+about us 
 (Under Construction!)
 </body>
 </html>

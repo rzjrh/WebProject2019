@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-Register
+our products 
 (Under Construction!)
 </body>
 </html>
