@@ -1,6 +1,5 @@
 package com.RezaAk.web.WebProject2019.model;
 
-import java.beans.Transient;
 import java.util.Date;
 import java.util.List;
 
@@ -10,10 +9,13 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 
 @Entity
 @Table (name= "users")
@@ -32,6 +34,7 @@ public class User {
 	@Size (min =5)
 	private int phoneNumber;
 	private String password;
+    @Transient
 	private String passwordConfirmation;
 	@Column(updatable = false)
 	private Date createdAt;
@@ -59,6 +62,15 @@ public User(long id, String firstName, String lastName, @Email String email, Str
 	this.updatedAt = updatedAt;
 }
 	
-	
+@PrePersist
+protected void onCreate(){
+    this.createdAt = new Date();
+}
+@PreUpdate
+protected void onUpdate(){
+    this.updatedAt = new Date();
+}
+
+
 	
 }

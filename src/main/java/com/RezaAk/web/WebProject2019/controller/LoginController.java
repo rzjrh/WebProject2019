@@ -20,4 +20,10 @@ public class LoginController {
 	public String register () {
 		return "register.jsp";
 	}
+	
+	@RequestMapping ("/footer")
+	public String footer () {
+		return "include/footer.jsp";
+	}
+	
 }
