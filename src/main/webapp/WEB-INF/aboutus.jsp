@@ -11,5 +11,7 @@
 
 about us 
 (Under Construction!)
+
+<jsp:include page="include/footer.jsp" />
 </body>
 </html>

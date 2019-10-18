@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,8 +21,8 @@
 <footer class="footer-distributed">
 
 			<div class="footer-left">
-
-				<h3>The Trade Group<span>Graphic Team</span></h3>
+				<img src="http://static1.squarespace.com/static/57f3e836ebbd1ac0041159fd/58c059e4a5790ac66d53687b/5a0bb3a18165f525bae2aa30/1510716618502/the+trade+group.jpg?format=1500w" alt="TTG LOGO" height="50" width="125">
+				<h3>The Trade Group <span><br> Graphic Team</span></h3>
 
 				<p class="footer-links">
 					<a href="/">Home</a>
@@ -32,7 +32,7 @@
 					<a href="/aboutus">About</a>
 					·
 					<a href="/login">login</a>
-					·
+					
 				</p>
 
 				<p class="footer-company-name">The Trade Group &copy; 2019</p>

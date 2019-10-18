@@ -9,5 +9,10 @@
 <body>
 <jsp:include page="include/header.jsp" />
 
+Dashboard
+(Under Construction!)
+
+
+<jsp:include page="include/footer.jsp" />
 </body>
 </html>

@@ -61,9 +61,10 @@
             <br><br><br><br>
 
             
-            <div id="footer"><h3><a href=" ">Here is footer</a></h3></div>
       </div>
    </div>
+   
+   <jsp:include page="include/footer.jsp" />
 </body>
 </html>
     
